@@ -36,7 +36,7 @@ void InitDrawing(char *answer);
 int Judgement(int *Judge);
 double MyClock(void);
 
-int main(int argc, char *argv[]){
+int main(void){
     char answer[(dNumberSize + 1) * 2]; 
     int ct;
     HISTORY playerHist[dGuessMaxNum * 2];
